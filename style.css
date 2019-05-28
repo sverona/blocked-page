@@ -1,0 +1,21 @@
+html {
+  font-size: 20px;
+}
+
+body {
+  margin-left: 1rem;
+}
+
+h1 {
+  font-size: 5rem;
+  word-spacing: -1.25rem;
+  margin: 0;
+}
+
+span.comma {
+  color: #ccc;
+}
+
+p {
+  max-width: 50ch;
+}
