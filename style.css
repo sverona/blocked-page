@@ -1,16 +1,22 @@
 html { font-size: 14px; }
 @media only screen and (min-width: 600px) {
-  html { font-size: 18px; }
+  html { font-size: 16px; }
+}
+
+body {
+  background-color: #eee;
 }
 
 div.wrapper {
   width: calc(100% - 2rem);
-  max-width: 50ch;
+  max-width: 48ch;
   margin: 0 auto;
 }
 
 p, ul {
+  text-align: justify;
   line-height: 1.4rem;
+  text-shadow: 1px 1px 0 #eee;
 }
 
 h1 {

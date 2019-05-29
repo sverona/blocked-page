@@ -33,7 +33,7 @@
     height: 100px;
     background-color: none;
     animation-name: anicircle; 
-    animation-duration: 16s;
+    animation-duration: 12s;
     animation-delay: 1s;
     animation-iteration-count: infinite;
     animation-timing-function: easeInOutSine;
@@ -51,6 +51,7 @@
 
 @keyframes anicircle {
     0%   {border-color:rgba(0,0,0,1); height:100px; width:100px;}
-    50%  {border-color:rgba(0,0,0,1); height:300px; width:300px;  border-radius:200px;}
+    40%  {border-color:rgba(0,0,0,1); height:300px; width:300px;  border-radius:200px;}
+    60%  {border-color:rgba(0,0,0,1); height:300px; width:300px;  border-radius:200px;}
     100% {border-color:rgba(0,0,0,1); height:100px; width:100px;}
 }
