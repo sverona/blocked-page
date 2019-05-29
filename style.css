@@ -1,12 +1,16 @@
-html { font-size: 16px; }
+html { font-size: 14px; }
 @media only screen and (min-width: 600px) {
-  html { font-size: 20px; }
+  html { font-size: 18px; }
 }
 
 div.wrapper {
   width: calc(100% - 2rem);
   max-width: 50ch;
   margin: 0 auto;
+}
+
+p, ul {
+  line-height: 1.4rem;
 }
 
 h1 {
