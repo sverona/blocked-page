@@ -27,7 +27,7 @@
     display:flex;
     justify-content:center;
     align-items:center;
-    background-color:rgba(0,0,0,0.05);
+    background-color:rgba(0,0,0,0.025);
     border-radius:125px;
     width: 100px;
     height: 100px;
@@ -41,7 +41,7 @@
 
 .stillcircle {
     position: absolute;
-    background-color:rgba(0,0,0,0.1);
+    background-color:rgba(0,0,0,0.075);
     border-radius:50%;
     width: 102px;
     height: 102px;
